@@ -5,7 +5,7 @@ import ReportCard from "../../../components/card/ReportCard";
 const WhySasly = () => {
   return (
     <div className="py-20 w-full flex justify-center font-dm-sans">
-      <div className="max-w-[1280px] mb-4">
+      <div className="max-w-[1100px] mb-4">
         <div className="mx-auto font-bold text-5xl text-[#14358A]  w-[580px] text-center tracking-tighter leading-105">
           We optimize marketing for business continuity
         </div>

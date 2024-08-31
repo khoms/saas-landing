@@ -6,7 +6,7 @@ const Feature = () => {
   const abc = [1, 2, 3];
   return (
     <div className="py-20 w-full flex justify-center font-dm-sans">
-      <div className="max-w-[1280px] mb-4 w-full">
+      <div className="max-w-[1100px] mb-4 w-full">
         <div className="mx-auto font-bold text-5xl text-[#14358A]  w-[580px] text-center tracking-tighter leading-105">
           We make it easy to track all data analytics
         </div>

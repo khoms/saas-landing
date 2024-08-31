@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Feature from "./pages/landing/sections/Feature";
 import Hero from "./pages/landing/sections/Hero";
+import RrSection from "./pages/landing/sections/RrSection";
 import WhySasly from "./pages/landing/sections/WhySasly";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       </div>
       <WhySasly />
       <Feature />
+      <RrSection />
     </>
   );
 }

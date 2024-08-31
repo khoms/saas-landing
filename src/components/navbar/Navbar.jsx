@@ -6,7 +6,7 @@ import { navData } from "./navbarData";
 const Navbar = () => {
   return (
     <div className="w-full justify-center flex    z-30 ">
-      <div className="w-full xl:w-2xl flex justify-between font-dm-sans   h-20 py-8 max-w-[1280px]">
+      <div className="w-full xl:w-2xl flex justify-between font-dm-sans   h-20 py-8 max-w-[1100px]">
         <div className="flex gap-6 items-center">
           <div className=" font-bold text-[32px]">Saasly</div>
         </div>

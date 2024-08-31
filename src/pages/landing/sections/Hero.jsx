@@ -6,7 +6,7 @@ import Brand from "../../../components/sections/Brand";
 const Hero = () => {
   return (
     <div className="flex justify-center font-dm-sans">
-      <div className="flex flex-col items-center mt-20 text-center max-w-[1280px]">
+      <div className="flex flex-col items-center mt-20 text-center max-w-[1100px]">
         <div className="font-bold text-[60px]  leading-none">
           <div>Advanced analytics to grow</div>
           your business
