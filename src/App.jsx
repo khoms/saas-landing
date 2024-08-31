@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
+import Article from "./pages/landing/sections/Article";
 import Feature from "./pages/landing/sections/Feature";
 import Hero from "./pages/landing/sections/Hero";
 import RrSection from "./pages/landing/sections/RrSection";
@@ -15,6 +16,7 @@ function App() {
       <WhySasly />
       <Feature />
       <RrSection />
+      <Article />
     </>
   );
 }
