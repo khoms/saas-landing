@@ -1,14 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./pages/landing/sections/Hero";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="bg-red-400 p-10">Nepal</div>
+      <div className="bg-gradient-to-r from-[#1B45B4] to-[#1C2792] text-white min-h-screen">
+        <Navbar />
+        <Hero />
+      </div>
     </>
   );
 }
