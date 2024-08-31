@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./pages/landing/sections/Hero";
+import WhySasly from "./pages/landing/sections/WhySasly";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Hero />
       </div>
+      <WhySasly />
     </>
   );
 }
