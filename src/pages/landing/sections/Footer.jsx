@@ -13,7 +13,7 @@ const Footer = () => {
       <div class="absolute top-0 left-0 w-full h-0 border-t-[40px] md:border-t-[140px] border-t-[#EBF7FF] border-r-[100vw] border-r-transparent"></div>
 
       <div className="absolute -top-2 right-0 h-16 bg-[#0097FE] transform origin-bottom-left w-48 -skew-y-6 hidden md:block"></div>
-      <div className="absolute bottom-28 left-0 h-12 bg-[#0097FE] transform origin-bottom-left w-32 -skew-y-6 "></div>
+      <div className="absolute bottom-28 left-0 h-12 bg-[#0097FE]/40 transform origin-bottom-left w-32 -skew-y-6 "></div>
       <div className="absolute bottom-1/3 right-0 h-16 border border-[#4885D5]/40 border-r-transparent transform origin-bottom-left w-full md:w-32 -skew-y-6 "></div>
       <div className="absolute top-[92px] left-8 h-12 border border-[#4885D5]/40 border-b-transparent  transform origin-bottom-left w-64 -skew-y-6"></div>
       <div className="absolute top-[48px] left-0 h-16  bg-[#4885D5]/20  transform origin-bottom-left w-52 -skew-y-6"></div>

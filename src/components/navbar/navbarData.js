@@ -17,5 +17,6 @@ export const navData = [
   },
   {
     name: "Pages",
+    children: ["home", "about"],
   },
 ];

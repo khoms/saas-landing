@@ -1,9 +1,8 @@
-import ReportCard from "../../../components/card/ReportCard";
 import SocialMediaCard from "../../../components/card/SocialMediaCard";
 
 const RrSection = () => {
   return (
-    <div className="relative w-full py-20 pb-40 md:py-40 flex items-center justify-center ">
+    <div className="relative w-full py-16 pb-40 md:py-40 flex items-center justify-center ">
       {/* Skewed background */}
       <div className="absolute  inset-0 bg-gradient-to-r from-[#1B45B4] to-[#1C2792] w-full transform -skew-y-6 "></div>
       {/* Card container */}

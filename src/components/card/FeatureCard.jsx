@@ -8,7 +8,7 @@ const FeatureCard = ({ image, icon, title, content }) => {
           <img src={icon} alt="stats-icon" className="size-8" />
         </div>
 
-        <div className="space-y-3 mt-6 w-[480px] text-center md:text-left">
+        <div className="space-y-3 mt-6  md:w-[480px] text-center md:text-left">
           <div className="text-primary font-bold text-2xl leading-110 tracking-tighter ">
             {title}
           </div>
@@ -19,8 +19,13 @@ const FeatureCard = ({ image, icon, title, content }) => {
         </div>
       </div>
 
-      <div className="w-[335px] h-[268px] md:w-[509px] md:h-[406px] ">
-        <img src={image} alt="feature-image" className="size-full" />
+      <div className="w-full h-[268px] md:w-[509px] md:h-[406px] ">
+        <img
+          src={image}
+          alt="feature-image"
+          className="size-full"
+          loading="lazy"
+        />
       </div>
     </div>
   );
