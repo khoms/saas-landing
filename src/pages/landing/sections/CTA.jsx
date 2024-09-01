@@ -2,8 +2,8 @@ import Button from "../../../components/button/Button";
 
 const CTA = () => {
   return (
-    <div className="py-20 w-full flex justify-center font-dm-sans bg-[#EBF7FF]">
-      <div className="max-w-[1100px] mb-4 w-full text-center">
+    <div className="pt-16 md:pt-20 w-full flex justify-center font-dm-sans bg-[#EBF7FF]">
+      <div className="max-w-[1100px] mb-4 w-full text-center px-5 md:px-0">
         <div className="mx-auto font-bold text-5xl text-[#14358A]   tracking-tighter leading-105">
           Let's start growing your business
         </div>
@@ -12,7 +12,7 @@ const CTA = () => {
           nisl tellus rhoncus, imperdiet
         </div>
 
-        <div className="flex justify-center gap-6">
+        <div className="flex flex-col md:flex-row justify-center gap-3  md:gap-6">
           <Button title="Register Now" size="sm" />
           <Button
             title="Contact Us"
