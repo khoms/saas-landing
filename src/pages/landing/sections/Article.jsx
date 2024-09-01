@@ -1,5 +1,6 @@
 import Button from "../../../components/button/Button";
 import ArticleCard from "../../../components/card/ArticleCard";
+import { articleData } from "../../../data/article";
 
 const Article = () => {
   return (
@@ -9,9 +10,9 @@ const Article = () => {
           Our article on grow & tech
         </div>
         <div className="flex flex-col gap-10  mt-16 mb-12 md:gap-6 md:flex-row ">
-          <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
+          {articleData.map((item) => (
+            <ArticleCard article={item} key={item.id} />
+          ))}
         </div>
 
         <div className="flex justify-center">
