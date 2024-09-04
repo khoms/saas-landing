@@ -7,7 +7,7 @@ import ArrowDown from "../../assets/icons/ArrowDown";
 const Navbar = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
   return (
-    <div className="w-full justify-center    z-20 lg:flex font-dm-sans  bg-gradient-to-r from-[#1B45B4] to-[#1C2792]">
+    <div className="w-full justify-center    z-20 lg:flex font-dm-sans absolute">
       <div className="w-full xl:w-2xl flex justify-between items-center font-dm-sans   h-20 py-8 max-w-[1100px] px-5 lg:px-0">
         <div className="flex gap-6 items-center">
           <div className=" font-bold text-[32px]">Saasly</div>

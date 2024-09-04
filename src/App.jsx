@@ -13,7 +13,7 @@ const WhySasly = lazy(() => import("./pages/landing/sections/WhySasly"));
 function App() {
   return (
     <>
-      <div className="relative w-full  text-white">
+      <div className="w-full  text-white">
         <Navbar />
         <Suspense fallback={<div>Loader comes here....</div>}>
           <Hero />

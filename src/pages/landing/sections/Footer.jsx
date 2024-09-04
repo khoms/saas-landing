@@ -1,27 +1,24 @@
 import React from "react";
 import facebook from "../../../assets/icons/facebook.svg";
+import footerBg from "../../../assets/images/footerbg.webp";
+import footerBgSm from "../../../assets/images/footerBg-sm.webp";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-b from-blue-800 to-blue-900 text-white pt-24 md:pt-40 font-dm-sans w-full flex justify-center ">
-      {/* <div className="absolute top-0 left-0 w-full  h-20 transform -skew-y-6  origin-bottom bg-[#EBF7FF] text-black text-xl font-bold">
-        NEPAL IS GOO COUNTRY
-      </div> */}
+    <footer className="relative text-white pt-24 md:pt-56 font-dm-sans w-full flex justify-center bg-[#EBF7FF]">
+      <picture>
+        <source media="(max-width: 768px)" srcSet={footerBgSm} />
+        <img
+          src={footerBg}
+          alt="Footer Background"
+          className="absolute inset-0 w-full h-full  object-center z-0"
+        />
+      </picture>
 
-      {/* <div class="absolute top-0  w-full h-[100px] bg-[#EBF7FF] transform -skew-y-6 origin-top-right"></div> */}
-
-      <div class="absolute top-0 left-0 w-full h-0 border-t-[40px] md:border-t-[140px] border-t-[#EBF7FF] border-r-[100vw] border-r-transparent"></div>
-
-      <div className="absolute -top-2 right-0 h-16 bg-[#0097FE] transform origin-bottom-left w-48 -skew-y-6 hidden md:block"></div>
-      <div className="absolute bottom-28 left-0 h-12 bg-[#0097FE]/40 transform origin-bottom-left w-32 -skew-y-6 "></div>
-      <div className="absolute bottom-1/3 right-0 h-16 border border-[#4885D5]/40 border-r-transparent transform origin-bottom-left w-full md:w-32 -skew-y-6 "></div>
-      <div className="absolute top-[92px] left-8 h-12 border border-[#4885D5]/40 border-b-transparent  transform origin-bottom-left w-64 -skew-y-6"></div>
-      <div className="absolute top-[48px] left-0 h-16  bg-[#4885D5]/20  transform origin-bottom-left w-52 -skew-y-6"></div>
-
-      <div className="max-w-[1100px] mb-4 w-full">
-        <div className="container   flex flex-col md:flex-row gap-8 md:justify-between w-full items-center px-5 md:px-4">
+      <div className="max-w-[1100px] mb-4 w-full z-10">
+        <div className="   flex flex-col md:flex-row gap-8 md:justify-between w-full items-center px-5 md:px-4 ">
           {/* Brand Section */}
-          <div className="md:max-w-xs  text-center  md:text-left flex flex-col items-center md:items-start px-3 md:px-0">
+          <div className="max-w-sm md:max-w-xs  text-center md:text-left flex flex-col items-center md:items-start px-3 md:px-0">
             <h2 className="text-2xl font-bold">Saasly</h2>
             <p className="mt-4 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut
@@ -37,7 +34,7 @@ const Footer = () => {
 
           {/* Pages Links */}
           <div className="flex-1 w-full grid grid-cols-2 gap-8 md:grid-cols-3 justify-between ">
-            <div className=" flex flex-col  md:items-center ">
+            <div className=" flex flex-col  sm:items-center ">
               <div>
                 <h3 className="text-lg font-semibold">Pages</h3>
                 <ul className="mt-4 space-y-2 text-left">
