@@ -1,8 +1,7 @@
 import React from "react";
 import SocialMediaCard from "../../../components/card/SocialMediaCard";
-import bgSocialMedia from "../../../assets/images/bg-socialmedia.webp"; // Adjust path as necessary
-import bgSocialMediaSm from "../../../assets/images/bg-socialmedia-sm.webp"; // Adjust path as necessary
-
+import bgSocialMedia from "../../../assets/images/bg-socialmedia.webp";
+import bgSocialMediaSm from "../../../assets/images/bg-socialmedia-sm.webp"; 
 const RrSection = () => {
   return (
     <div className="relative w-full  flex items-center justify-center overflow-hidden ">
